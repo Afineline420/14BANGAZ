@@ -1,0 +1,1266 @@
+[2025-05-03T11:03:55.917] [INFO] default - updating leaderboard
+[2025-05-03T11:03:56.281] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.297] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.300] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:255:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:253:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.307] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.310] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:329:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:327:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.319] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.322] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:67:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.325] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.331] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.334] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.336] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.337] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.339] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.341] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.343] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.346] [ERROR] default - Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1636:16)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+[2025-05-03T11:03:56.352] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.352] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.353] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.353] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.354] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.354] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.354] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.355] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.356] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.356] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.356] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.357] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.357] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.357] [DEBUG] default - Whriting error completed!
+[2025-05-03T11:03:56.357] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:51.004] [INFO] default - updating leaderboard
+[2025-05-03T15:00:51.937] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:67:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.958] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.966] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:985:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.971] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.974] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:255:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:253:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.984] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:329:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:327:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.987] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:51.991] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.002] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.004] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.006] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.009] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.015] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.017] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.019] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.022] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\ONEFOURBANGAZ-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T15:00:52.024] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.025] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.025] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.025] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.026] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.027] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.032] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.033] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.034] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.034] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.035] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.035] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.036] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.036] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.036] [DEBUG] default - Whriting error completed!
+[2025-05-03T15:00:52.037] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.137] [INFO] default - updating leaderboard
+[2025-05-03T16:13:03.903] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.908] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_checkRound (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:255:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:253:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.913] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.917] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:15:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.924] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at crashGame_checkGame (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1), <anonymous>:329:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1), <anonymous>:327:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:983:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.928] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at rouletteGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:38:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1), <anonymous>:13:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:982:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.932] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at jackpotGame_checkGames (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1), <anonymous>:70:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1), <anonymous>:67:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:984:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.935] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.query (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:202:8)
+    at coinflipGame_loadHistory (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:985:1), <anonymous>:7:7)
+    at eval (eval at <anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:985:1), <anonymous>:5:1)
+    at Object.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\server.js:985:1)
+    at Module._compile (node:internal/modules/cjs/loader:1730:14)
+    at Object..js (node:internal/modules/cjs/loader:1895:10) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.944] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.946] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.948] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.952] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.955] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.957] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.960] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.962] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.963] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.964] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.964] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.964] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.965] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.965] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.968] [ERROR] default - Error: ER_NOT_SUPPORTED_AUTH_MODE: Client does not support authentication protocol requested by server; consider upgrading MySQL client
+    at Sequence._packetToError (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Handshake.ErrorPacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\sequences\Handshake.js:123:18)
+    at Protocol._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:518:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at PoolConnection.connect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:116:18)
+    at Pool.getConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:48:16)
+    at Pool.releaseConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:157:10)
+    at Pool._removeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:277:8)
+    at Pool._purgeConnection (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:258:8)
+    at Handshake.onConnect (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Pool.js:57:14)
+    at Handshake.<anonymous> (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\kylec\OneDrive\Desktop\KING88-Casino-FullProject\node_modules\mysql\lib\Connection.js:488:16) {
+  code: 'ER_NOT_SUPPORTED_AUTH_MODE',
+  errno: 1251,
+  sqlMessage: 'Client does not support authentication protocol requested by server; consider upgrading MySQL client',
+  sqlState: '08004',
+  fatal: true
+}
+[2025-05-03T16:13:03.969] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.972] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.973] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.974] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.974] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.974] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.975] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.975] [DEBUG] default - Whriting error completed!
+[2025-05-03T16:13:03.976] [DEBUG] default - Whriting error completed!

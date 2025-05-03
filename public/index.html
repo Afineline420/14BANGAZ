@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Gangster Casino</title>
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #000, #111);
+            color: #ffd700;
+            overflow-x: hidden;
+        }
+
+        /* Header */
+        header {
+            background: #111;
+            color: #ffd700;
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5rem;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Jackpot Marquee */
+        .jackpot-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            background: #222;
+            padding: 10px;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+        .jackpot-label {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        .jackpot-amount {
+            font-size: 2rem;
+            font-weight: bold;
+            animation: glow 1.5s infinite alternate;
+        }
+
+        /* Main Container */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Balance Display */
+        .balance-section {
+            grid-column: span 2;
+            background: #333;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        }
+        .balance-label {
+            font-size: 1.5rem;
+        }
+        .balance-amount {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #ffd700;
+        }
+
+        /* Slot Machine Reels */
+        .slot-machine {
+            background: #444;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        .reels {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .reel {
+            width: 80px;
+            height: 80px;
+            background: #222;
+            border: 2px solid #ffd700;
+            border-radius: 5px;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 0 0 10px #ffd700;
+        }
+
+        /* Action Buttons */
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+        .button {
+            background: #ffd700;
+            color: #000;
+            padding: 15px 30px;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+        }
+        .button:hover {
+            transform: scale(1.1);
+            background: #ffcc33;
+        }
+
+        /* Spin Button */
+        .spin-button {
+            grid-column: span 2;
+            background: radial-gradient(circle, #ff3333, #cc0000);
+            color: #fff;
+            padding: 20px 50px;
+            font-size: 2rem;
+            border: none;
+            border-radius: 50%;
+            margin-top: 30px;
+            cursor: pointer;
+            transition: transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 10px 30px rgba(255, 51, 51, 0.6);
+        }
+        .spin-button:hover {
+            transform: scale(1.2);
+            background: radial-gradient(circle, #ff6666, #cc3333);
+        }
+
+        /* Animations */
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 15px #ffcc33;
+            }
+            to {
+                text-shadow: 0 0 20px #ffcc33, 0 0 30px #ffd700, 0 0 40px #ffd700;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>Golden Gangster Casino</header>
+
+    <!-- Jackpot Display -->
+    <div class="jackpot-section">
+        <div class="jackpot-label">Jackpot:</div>
+        <div class="jackpot-amount" id="jackpot-amount">$0</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Balance Section -->
+        <div class="balance-section">
+            <div class="balance-label">Your Balance:</div>
+            <div class="balance-amount" id="user-balance">$0</div>
+        </div>
+
+        <!-- Slot Machine Reels -->
+        <div class="slot-machine">
+            <div class="reels">
+                <div class="reel" id="reel1">7</div>
+                <div class="reel" id="reel2">7</div>
+                <div class="reel" id="reel3">7</div>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons">
+            <button class="button" id="deposit-button">Deposit</button>
+            <button class="button" id="withdraw-button">Withdraw</button>
+            <button class="button" id="daily-spin-button">Daily Spin</button>
+        </div>
+
+        <!-- Spin Button -->
+        <button class="spin-button" id="spin-button">Spin</button>
+    </div>
+
+    <!-- Sockets and Logic -->
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+
+        // Update Jackpot
+        socket.on('jackpotUpdate', (data) => {
+            document.getElementById('jackpot-amount').textContent = `$${data}`;
+        });
+
+        // Update Balance
+        socket.on('userBalanceUpdate', (data) => {
+            document.getElementById('user-balance').textContent = `$${data}`;
+        });
+
+        // Spin Reels
+        document.getElementById('spin-button').addEventListener('click', () => {
+            socket.emit('spin');
+        });
+    </script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      const socket = io();
+      const jackpotEl = document.getElementById('jackpot');
+
+      if (jackpotEl) {
+        socket.on('jackpot-update', (data) => {
+          jackpotEl.textContent = 'Jackpot: $' + data.jackpot;
+        });
+      }
+    </script>
+    </body>
+    
+</html>
