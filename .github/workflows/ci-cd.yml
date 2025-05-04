@@ -6,27 +6,23 @@ on:
       - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
+    - name: Build frontend
+      run: |
+        cd frontend
+        npm install
+        npm run build
+
+    - name: Deploy to Netlify
+      uses: nwtgck/actions-netlify@v1.2.3
       with:
-        python-version: '3.9'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r backend/requirements.txt
-
-    - name: Run tests
-      run: |
-        # Add test commands if available
-        echo "No tests defined yet"
-
-    - name: Deploy (Placeholder)
-      run: echo "Deployment steps go here."
+        publish-dir: ./frontend/dist  # Replace './frontend/dist' with the actual build directory for your frontend
+        production-deploy: true
+        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
